@@ -6,8 +6,8 @@ export const ADD_FEATURE = "ADD_FEATURE";
    return { type: ADD_FEATURE, payload: feature };
  };
 
- export const removeFeature = featureIdx => {
-   return { type: REMOVE_FEATURE, payload: featureIdx };
+ export const removeFeature = featureId => {
+   return { type: REMOVE_FEATURE, payload: featureId };
  };
 
  export const updateAdditionalPrice = () => {
